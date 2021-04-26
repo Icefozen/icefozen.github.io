@@ -8,14 +8,14 @@ h1 {
     color: navy;
     margin-left: 20px;
     margin-bottom: 0px;
-    font-size: 50px;
+    font-size: 100%;
 }
 
 h4 {
     margin-top: 0px;
     margin-left: 20px;
     margin-bottom: 0px;
-    font-size: 30px;
+    font-size: 30%;
     color: gray;
     font-style: normal;
 }
@@ -26,20 +26,41 @@ address {
 
 .myprofile {
     width: 30%;
+    height: 30%;
     justify-content: center;
     border-radius: 50%;
     margin-left: 20px;
     margin-top: 10px;
 }
 
-div {
-    background-color:lightblue;
+p {
+    font-style: normal;
+    font-size: 10%;
 }
 
 header {
     display: flex;
 }
 
+.contact {
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flexbox;
+}
+
 .contact img{
-    width: 20%;
+    width: 5%;
+    height: 5%;
+    float: left;
+    margin-right: 5px;
+}
+
+.contactPhoto {
+    width: 100%;
+    height: 10%;
+}
+
+.contactPhoto img {
+    width: 10%;
+    height: 20px;
 }
