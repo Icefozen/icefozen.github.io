@@ -20,6 +20,12 @@ h4 {
     font-style: normal;
 }
 
+h3 {
+    margin-bottom: 0%;
+    margin-left: 20px;
+    font-family: Helvetica;
+}
+
 address {
     display: inline-block;
 }
@@ -36,6 +42,7 @@ address {
 p {
     font-style: normal;
     font-size: 10%;
+    display: flex;
 }
 
 header {
@@ -63,4 +70,31 @@ header {
 .contactPhoto img {
     width: 10%;
     height: 20px;
+}
+
+.Education img {
+    width: 7%;
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.Education {
+    display: flexbox;
+}
+
+ul {
+    margin-top: 0%;
+    font-size: 20%;
+    /* font-family: Helvetica; */
+}
+
+.Skill {
+    display: flex;
+}
+
+.HeaderSkill {
+    font-size: large;
+    margin-left: 20px;
+    margin-bottom: 0%;
 }
